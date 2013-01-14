@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.vainolo.jjtv5.GEFEditor"
+            contributorClass="com.vainolo.jjtv5.policy.GEFEditorActionBarContributor"
+            default="true"
+            extensions="jjtv"
+            id="jjtv5.editor"
+            name="JJTV Editor">
+      </editor>
+   </extension>
+
+</plugin>
